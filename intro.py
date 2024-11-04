@@ -9,6 +9,14 @@ b = int(input("Enter second number: "))
 z = ((a**2) + (b**2))/(a - b)**2
 print(z)
 
+frase = ("Um elefante incomoda muita gente")
+frase[3:20]#fatia a string do começo da string até o final sempre conta - se de 0 a 4
+
+x = int(input("Digite um numero: ")) #int significa que somente números inteiros vão ser adicionados
+y = int(input("Digite outro numero: "))
+z = (x**2 + y**2)/(x-y)**2
+print(z)
+
 salario = float(input("Digite o salário: ")) #float, usado para inserir números com virgula
 reajuste = salario * 0.15
 novo_salario = salario + reajuste
