@@ -45,3 +45,14 @@ L = [15, 25, 35, 45, 55]
 50 in L
 del L[3]
 print(L)
+
+print("LANCHONETE")
+print("PRODUTOS","PREÇO")
+cardapio = {"Salgado": 4.50, "Lanche": 6.50, "Suco": 3.00, "Refrigerante": 3.50, "Doce": 1.00} #cardapio é um dicionario, que é definido por um conjunto de valores, onde cada valor é associado a uma chave de acesso.
+print(cardapio)
+
+N = {"Antônio": 100, "Joyce": 90, "Arielly": 0, "Duda Moreira": 80, "Duda Villeroy": 80}
+M = sum(N.values())/len(N)
+print("Média da turma:", M)
+
+
