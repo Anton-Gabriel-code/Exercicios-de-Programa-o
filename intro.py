@@ -8,3 +8,9 @@ salario = float(input("Digite o salário: ")) #float, usado para inserir número
 reajuste = salario * 0.15
 novo_salario = salario + reajuste
 print(f"O novo salário é: {novo_salario}")
+
+salario = float(input("Insira o valor do seu sálario atual em reais: ")) #float significa que tanto números interios quanto números com casas decimais podem ser adicionados
+porcentagem = float(input("Insira a porcentagem de reajuste: "))
+reajuste = salario * (porcentagem/100)
+novo_salario = salario + reajuste
+print("O valor do seu novo sálario é de: ", novo_salario)
