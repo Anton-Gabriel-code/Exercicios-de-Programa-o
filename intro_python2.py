@@ -1,7 +1,3 @@
-#Começo da Unidade dois introdução a python
-frase = input("Digite uma frase: ")
-frase = frase.upper()#deixa todas as letras em maiusculo
-print(frase)
 
 lista_1 = [10, 20, 30]
 lista_1.extend([40, 50, 60]) #Adiciona um valor no final da lista atual
@@ -14,12 +10,6 @@ x = int(input("Digite um numero: ")) #int significa que somente números inteiro
 y = int(input("Digite outro numero: "))
 z = (x**2 + y**2)/(x-y)**2
 print(z)
-
-salario = float(input("Insira o valor do seu sálario atual em reais: ")) #float significa que tanto números interios quanto números com casas decimais podem ser adicionados
-porcentagem = float(input("Insira a porcentagem de reajuste: "))
-reajuste = salario * (porcentagem/100)
-novo_salario = salario + reajuste
-print("O valor do seu novo sálario é de: ", novo_salario)
 
 lista_1 = [10, 20, 30]
 del lista_1[1] # "del" remove um item da lista de acordo com o indice, sempre contando de 0 a 4
