@@ -18,3 +18,14 @@ elif media >= 5 and  media <= 6.9:
 elif media < 5:
   print("Que pena, você está reprovado!")
 
+
+
+renda = float(input("Informe sua renda anual: R$ "))
+a_b = 0.15
+a_a = 0.50
+if renda <= 50000:
+    imposto = renda * a_b
+elif renda >= 50000:
+    imposto = renda * a_a
+print(f"O valor do imposto de renda a ser pago é de R$ {imposto:.2f}")
+
