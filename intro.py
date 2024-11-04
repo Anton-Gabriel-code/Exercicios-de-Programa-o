@@ -1,3 +1,8 @@
+#Começo da Unidade dois introdução a python
+frase = input("Digite uma frase: ")
+frase = frase.upper()#deixa todas as letras em maiusculo
+print(frase)
+
 a = int(input("Enter first number: ")) 
 #int utilizado para inserir números inteiros no codigo
 b = int(input("Enter second number: "))
